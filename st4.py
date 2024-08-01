@@ -197,8 +197,7 @@ hobbies_imp = [st.slider(hobbies_importance_map[f'Hobbies_Imp_{i+1}'], min_value
 
 # Input fields for Hobbies Time using Likert scal
 st.write(f"Hobbies Time Questions=\n")
-st.write(f"""How much time the participant spent per week on
-certain hobbies -\n ( 1 = Less than 1 hour, 2 = 1-2 hours, 3 = 3-5
+st.write(f""" -\n ( 1 = Less than 1 hour, 2 = 1-2 hours, 3 = 3-5
 hours, 4 = 6-10 hours, 5 = 11-15 hours, 6 = 16-20 hours, 7 = More than 20
 hours ) """)
 
