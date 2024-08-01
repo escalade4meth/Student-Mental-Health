@@ -174,11 +174,8 @@ age = st.number_input('Age', min_value=0, max_value=100, value=20)
 ethnicity = st.selectbox('Ethnicity', list(ethnicity_map.keys()))
 sex = st.selectbox('Sex', list(sex_map.keys()))
 gender = st.selectbox('Gender', list(gender_map.keys()))
-
 year_credits = st.number_input('Academic year [1-5]', min_value=0, max_value=10, value=1)
-
 program = st.selectbox('Program', list(program_map.keys()))
-
 part_time = st.selectbox('Part-time (If the student is a part-time or full-time study)', list(part_time_map.keys()))
 
 degree = st.selectbox('Current Degree', list(degree_map.keys()))
@@ -204,6 +201,7 @@ st.write(f"""How much time the participant spent per week on
 certain hobbies -\n ( 1 = Less than 1 hour, 2 = 1-2 hours, 3 = 3-5
 hours, 4 = 6-10 hours, 5 = 11-15 hours, 6 = 16-20 hours, 7 = More than 20
 hours ) """)
+
 hobbies_time = [st.slider(hobbies_time_map[f'Hobbies_time_{i+1}'], min_value=1, max_value=7, value=1) for i in range(8)]
 
 
@@ -311,5 +309,5 @@ if st.button('Predict'):
     else:
         # Make prediction
         prediction = model.predict(input_data)
-        st.write(f'Predicted Diagnosis: {"Yes" if prediction[0] == 1 else "No"}')
+        st.write(f'Predicted Diagnosis: {"You have a mental disorder" if prediction[0] == 1 else "You do not have a mental disorder"}')
 
