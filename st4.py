@@ -84,7 +84,7 @@ hobbies_importance_map = {
     "Hobbies_Imp_2": "How important is partying or going out to bars and clubs to you?",
     "Hobbies_Imp_3": "How important is playing games, such as video games or board games, with friends to you?",
     "Hobbies_Imp_4": "How important is watching online recreational content such as on Netflix or YouTube to you?",
-    "Hobbies_Imp_5": "How important is participating in academic organizations and research to you?",
+    "Hobbies_Imp_5": "How important is participating in academic organizations and research (eg. teamwork-hacakthons , intership) to you?",
     "Hobbies_Imp_6": "How important is studying to you?",
     "Hobbies_Imp_7": "How important is attending office hours to you?",
     "Hobbies_Imp_8": "How important is utilizing educational resources, such as the library and online tools, to you?"
@@ -105,7 +105,7 @@ hobbies_time_map = {
     "Hobbies_time_2": "How many hours per week do you spend partying or going out to bars and clubs?",
     "Hobbies_time_3": "How many hours per week do you spend playing games, such as video games or board games, with friends?",
     "Hobbies_time_4": "How many hours per week do you spend watching online recreational content such as on Netflix or YouTube?",
-    "Hobbies_time_5": "How many hours per week do you spend participating in academic organizations and research?",
+    "Hobbies_time_5": "How many hours per week do you spend participating in academic organizations and research (eg. teamwork-hacakthons , intership)?",
     "Hobbies_time_6": "How many hours per week do you spend studying?",
     "Hobbies_time_7": "How many hours per week do you spend attending office hours?",
     "Hobbies_time_8": "How many hours per week do you spend utilizing educational resources, such as the library and online tools?"
